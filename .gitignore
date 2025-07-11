@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+out/
+.vite/
+coverage/
+
+# Vite cache
+.vitepress/cache/
+.vite/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local env files
+*.local
+.env
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Jest coverage & cache
+coverage/
+jest-cache/
+jest-config.json
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# IDE temporary files
+*.log
+*.tmp
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Test snapshots (optional)
+__snapshots__/
+
+# OS or editor-specific files
+ehthumbs.db
+Icon?
+Desktop.ini
