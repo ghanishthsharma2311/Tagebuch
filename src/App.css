@@ -1,0 +1,95 @@
+/* ========== App Container Layout ========== */
+.app-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-content: center; */
+  gap: 1.5rem;
+  min-height: 100vh;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 1.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+/* ========== Section Heading ========== */
+.section-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+/* ========== Toggle Button ========== */
+.toggle-btn {
+  display: flex;
+  align-items: column;
+  justify-content: center; /* center the text/icon */
+  gap: 0.5rem;
+  padding: 0.75rem .25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  width: 90%; /* Make it full-width */
+  max-width: 100%; /* Prevent overflow */
+}
+
+.toggle-btn:hover {
+  background-color: #d1d5db;
+}
+
+.toggle-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0px rgba(59, 130, 246, 0.4);
+}
+
+.toggle-btn.important {
+  background-color: #fde047;
+  color: #1e293b;
+}
+
+.toggle-btn.important:hover {
+  background-color: #facc15;
+}
+
+/* ========== Tag Badge ========== */
+.tag {
+  display: inline-block;
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* ========== Star  ========== */
+.star-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #a5aab5; /* Gold color */
+  cursor: pointer;
+  z-index: 10;
+}
+
+.star-button:hover {
+  color: #6b7280;
+}
+
+.star-button.important {
+  color: gold;
+}
+

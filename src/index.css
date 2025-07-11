@@ -1,0 +1,156 @@
+/* ========== Global Base Styles ========== */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0d1d3e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111827;
+  line-height: 1.6;
+}
+
+/* Center the form itself */
+/* Center the form horizontally inside the app container */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+
+.entry-form {
+  width: 100%;
+  max-width: 600px;
+  background: linear-gradient(135deg, #5aacef 80%, #7fc8f8 100%);
+  border-radius: 10px;
+  padding: 2rem;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+  position: relative;
+}
+
+.entry-form:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: #1f2937;
+}
+
+.header {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(13, 29, 62, 0.6);
+  border-radius: 8px;
+  padding: 0.25rem 0.75rem;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(90, 172, 239, 0.10);
+  border: 1px solid rgba(123, 188, 242, 0.3);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.form-label {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 0.85rem .25rem;
+  border: 1px solid #7896c2;
+  border-radius: 8px;
+  font-size: .85rem;
+  background-color: #9fc3e8;
+  color: #111827;
+  transition: all 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #7da3e0;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  background-color: #fff;
+  outline: none;
+}
+
+.form-textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+
+.submit-button {
+  /* background-color: #6a6daa; */
+  background: rgba(13, 29, 62, 0.6);
+  color: rgb(244, 244, 244);
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  width: 100%; /* Make it full-width */
+  max-width: 100%; /* Prevent overflow */
+}
+
+.submit-button:hover {
+  background-color: #12214d;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(15, 45, 91, 0.3);
+}
+
+.star {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  /* background: rgba(13, 29, 62, 0.6); Blend with body bg */
+  background: linear-gradient(135deg, #5aacef 80%, #7fc8f8 100%);
+  /* border-radius: 50%; */
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(90, 172, 239, 0.10);
+  border: 1px solid rgba(123, 188, 242, 0.3);
+  backdrop-filter: blur(2px); /* Optional: subtle glass effect */
+}
+
+.star-toggle-btn {
+  background: none;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: background 0.2s;
+}
+
+.star-toggle-btn:hover {
+  background: rgba(17, 24, 39, 0.08);
+}
