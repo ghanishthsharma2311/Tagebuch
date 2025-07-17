@@ -68,13 +68,8 @@ Display All Diary Entries:
 Unit tests have been implemented with Jest to ensure the functionality of the application. Tests have been created for three mandatory features of the project, which run successfully.
 
 To run the unit tests, follow these steps:
-
-Ensure you are in the project directory and all dependencies are installed.
-
-Execute the test command:
-
-npm test
-# or
-yarn test
+- Ensure you are in the project directory and all dependencies are installed.
+- Execute the test command:
+    npm jest
 
 This command starts Jest and runs all tests defined in the project. The results will be displayed directly in the console
