@@ -70,6 +70,6 @@ Unit tests have been implemented with Jest to ensure the functionality of the ap
 To run the unit tests, follow these steps:
 - Ensure you are in the project directory and all dependencies are installed.
 - Execute the test command:
-    npm jest
+    * npm jest
 
 This command starts Jest and runs all tests defined in the project. The results will be displayed directly in the console
