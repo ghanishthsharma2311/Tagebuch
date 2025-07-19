@@ -13,15 +13,15 @@ git clone https://github.com/ghanishthsharma2311/Tagebuch.git
 cd Tagebuch
 
 # Install Dependencies:
-Ensure that Node.js and npm (or Yarn) are installed on your system.
+Ensure that Node.js and npm are installed on your system.
 
-npm install
+- npm install
 
 
 # Start the Application:
 After all dependencies have been installed, you can start the application:
 
-npm run dev
+- npm run dev
 
 
 The application will open by default in your browser at http://localhost:3000.
